@@ -254,8 +254,6 @@ fi
 
 echo "$password" | sudo umount $drive_to_write*
 
-#echo "$password" | sudo -S dd bs=4M if=/dev/zero of=$drive_to_write oflag=sync | zenity --window-icon=/usr/share/shock-os-imager/icon.svg --title="Shock OS Imager" --text="Erasing all data on $drive_to_write_display_name. This may take a while..." --progress --pulsate --auto-close --no-cancel
-
 echo "$password" | unxz -c /usr/share/shock-os-imager/cached-images/$shock_os_image.img.xz | sudo dd of=$drive_to_write bs=4M status=progress | zenity --window-icon=/usr/share/shock-os-imager/icon.svg --title="Shock OS Imager" --text="Writing $shock_os_image_display_name to $drive_to_write_display_name. This will take about 30 minutes..." --progress --pulsate --auto-close --no-cancel
 
 zenity --notification --title="Flashing Complete" --text="$shock_os_image_display_name has successfully been flashed to $drive_to_write_display_name."
