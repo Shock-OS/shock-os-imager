@@ -1,0 +1,27 @@
+images='Shock OS 6.0 Finlay (64 Bit)!Shock OS 6.0 Finlay (32 Bit)!Shock OS 5.0 Eddie (64 Bit)!Shock OS 5.0 Eddie (32 Bit)!Shock OS 5.0 Eddie (Legacy)!Shock OS 4.0 Danielle (64 Bit)!Shock OS 4.0 Danielle (32 Bit)!Shock OS 4.0 Danielle (Legacy)!Shock OS 3.0 Carson (64 Bit)!Shock OS 3.0 Carson (32 Bit)!Shock OS 3.0 Carson (Legacy)!Shock OS 2.0 Becky (Legacy)!Shock OS 1.0 Arnold (Legacy)'
+
+Finlay64='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/6.0-Finlay/ShockOSFinlay64bit.img.xz/download'
+
+Finlay32='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/6.0-Finlay/ShockOSFinlay32bit.img.xz/download'
+
+Eddie64='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/5.0-Eddie/ShockOSEddieBullseye64bit.img.xz/download'
+
+Eddie32='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/5.0-Eddie/ShockOSEddieBullseye32bit.img.xz/download'
+
+EddieLegacy='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/5.0-Eddie/ShockOSEddieLegacy32bit.img.xz/download'
+
+Danielle64='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/4.0-Danielle/ShockOSDanielleBullseye64bit.img.xz/download'
+
+Danielle32='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/4.0-Danielle/ShockOSDanielleBullseye32bit.img.xz/download'
+
+DanielleLegacy='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/4.0-Danielle/ShockOSDanielleLegacy32bit.img.xz/download'
+
+Carson64='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/3.0-Carson/ShockOSCarsonCurrent64bit.img.xz/download'
+
+Carson32='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/3.0-Carson/ShockOSCarsonCurrent32bit.img.xz/download'
+
+CarsonLegacy='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/3.0-Carson/ShockOSCarsonLegacy32bit.img.xz/download'
+
+BeckyLegacy='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/2.0-Becky/ShockOS2.0Becky.img.xz/download'
+
+ArnoldLegacy='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/1.0-Arnold/Shock-OS-1.0-Arnold-Legacy.img.xz/download'
