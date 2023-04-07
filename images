@@ -1,4 +1,8 @@
-images='Shock OS 6.0 Finlay (64 Bit)!Shock OS 6.0 Finlay (32 Bit)!Shock OS 5.0 Eddie (64 Bit)!Shock OS 5.0 Eddie (32 Bit)!Shock OS 5.0 Eddie (Legacy)!Shock OS 4.0 Danielle (64 Bit)!Shock OS 4.0 Danielle (32 Bit)!Shock OS 4.0 Danielle (Legacy)!Shock OS 3.0 Carson (64 Bit)!Shock OS 3.0 Carson (32 Bit)!Shock OS 3.0 Carson (Legacy)!Shock OS 2.0 Becky (Legacy)!Shock OS 1.0 Arnold (Legacy)'
+images='Shock OS 7.0 Garrett (64-bit)!Shock OS 7.0 Garrett (32-bit)!Shock OS 6.0 Finlay (64 Bit)!Shock OS 6.0 Finlay (32 Bit)!Shock OS 5.0 Eddie (64 Bit)!Shock OS 5.0 Eddie (32 Bit)!Shock OS 5.0 Eddie (Legacy)!Shock OS 4.0 Danielle (64 Bit)!Shock OS 4.0 Danielle (32 Bit)!Shock OS 4.0 Danielle (Legacy)!Shock OS 3.0 Carson (64 Bit)!Shock OS 3.0 Carson (32 Bit)!Shock OS 3.0 Carson (Legacy)!Shock OS 2.0 Becky (Legacy)!Shock OS 1.0 Arnold (Legacy)'
+
+Garrett64='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/7.0-Garrett/ShockOSGarrett64bit.img.xz/download'
+
+Garrett32='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/7.0-Garrett/ShockOSGarrett32bit.img.xz/download'
 
 Finlay64='https://sourceforge.net/projects/shock-os-download-mirror/files/Stable/6.0-Finlay/ShockOSFinlay64bit.img.xz/download'
 
