@@ -1,0 +1,241 @@
+images=""
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSGarrett64bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 7.0 Garrett (64-bit)'
+    
+  else
+  
+    images+='!Shock OS 7.0 Garrett (64-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSGarrett32bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 7.0 Garrett (32-bit)'
+    
+  else
+  
+    images+='!Shock OS 7.0 Garrett (32-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSFinlay64bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 6.0 Finlay (64-bit)'
+    
+  else
+  
+    images+='!Shock OS 6.0 Finlay (64-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSFinlay32bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 6.0 Finlay (32-bit)'
+    
+  else
+  
+    images+='!Shock OS 6.0 Finlay (32-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSEddieBullseye64bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 5.0 Eddie (64-bit)'
+    
+  else
+  
+    images+='!Shock OS 5.0 Eddie (64-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSEddieBullseye32bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 5.0 Eddie (32-bit)'
+    
+  else
+  
+    images+='!Shock OS 5.0 Eddie (32-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSEddieLegacy32bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 5.0 Eddie (Legacy)'
+    
+  else
+  
+    images+='!Shock OS 5.0 Eddie (Legacy)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSDanielleBullseye64bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 4.0 Danielle (64-bit)'
+    
+  else
+  
+    images+='!Shock OS 4.0 Danielle (64-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSDanielleBullseye32bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 4.0 Danielle (32-bit)'
+    
+  else
+  
+    images+='!Shock OS 4.0 Danielle (32-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSDanielleLegacy32bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 4.0 Danielle (Legacy)'
+    
+  else
+  
+    images+='!Shock OS 4.0 Danielle (Legacy)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSCarsonCurrent64bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 3.0 Carson (64-bit)'
+    
+  else
+  
+    images+='!Shock OS 3.0 Carson (64-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSCarsonCurrent32bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 3.0 Carson (32-bit)'
+    
+  else
+  
+    images+='!Shock OS 3.0 Carson (32-bit)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOSCarsonLegacy32bit.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 3.0 Carson (Legacy)'
+    
+  else
+  
+    images+='!Shock OS 3.0 Carson (Legacy)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/ShockOS2.0Becky.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 2.0 Becky (Legacy)'
+    
+  else
+  
+    images+='!Shock OS 2.0 Becky (Legacy)'
+    
+  fi
+  
+fi
+
+if [[ -f /usr/share/shock-os-imager/cached-images/Shock-OS-1.0-Arnold-Legacy.img.xz ]]
+then
+
+  if [[ -z "$images" ]]
+  then
+
+    images+='Shock OS 1.0 Arnold (Legacy)'
+    
+  else
+  
+    images+='!Shock OS 1.0 Arnold (Legacy)'
+    
+  fi
+  
+fi
