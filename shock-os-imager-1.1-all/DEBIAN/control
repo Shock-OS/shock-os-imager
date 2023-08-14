@@ -1,8 +1,9 @@
-Package: Shock-OS-Imager
-Version: 1.0
+Package: shock-os-imager
+Version: 1.1
 Architecture: all
 Essential: no
 Priority: optional
 Depends: yad,wget,xz-utils,zenity
+Conflicts: shock-os-metapackage
 Maintainer: Carson Grover
 Description: Install Shock OS onto an external SD card or USB drive.

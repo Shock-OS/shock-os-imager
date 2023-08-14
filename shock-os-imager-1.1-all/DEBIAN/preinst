@@ -1,0 +1,28 @@
+#!/bin/bash
+
+installed_packages=($(apt list --installed | awk -F/ '{print $1}' | uniq)) #ChatGPT
+
+if [[ " ${installed_packages[@]} " == *" shock-os-metapackage "* ]] #if installed
+then
+
+    current_version="$(apt show shock-os-metapackage | grep Version: | awk '{print $2}')"
+
+    if [[ "$current_version" == *"."* ]]
+    then
+
+        current_version="${current_version%%.*}"
+
+    fi
+
+    if ((current_version<8))
+    then
+
+        zenity --info --title="Upgrade Required" --text="You are running an old version of Shock OS that does not include Shock OS Imager. Please upgrade to Shock OS 8.0 Holly or later and Shock OS Imager will come built-in with your system."
+
+    else
+
+        zenity --info --title="Already Installed" --text="You are running Shock OS, which means Shock OS Imager is already installed on your computer. If you wish to upgrade to the latest version of Shock OS Imager, make sure you are upgraded to the latest version of Shock OS."
+
+    fi
+
+fi
